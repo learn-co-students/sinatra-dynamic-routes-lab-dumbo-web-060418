@@ -16,7 +16,7 @@ class App < Sinatra::Base
     phrase = params[:phrase]
     str = ""
       n.times do
-        str += "#{phrase} "
+        str += "#{phrase}"
       end
       str
   end
